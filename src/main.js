@@ -16,7 +16,6 @@ app.on('window-all-closed', function() {
 });
 
 app.on('ready', function() {
-  // load jquery
   mainWindow = new BrowserWindow({width: 1110, height:640});
   mainWindow.loadUrl('https://play.google.com/music');
 
@@ -24,10 +23,10 @@ app.on('ready', function() {
   globalShortcut.register('medianexttrack', function() {
     mainWindow.webContents.executeJavaScript('document.querySelector(\'sj-icon-button[data-id="forward"]\').click();');
   });
-
+  
   globalShortcut.register('mediaplaypause', function() {
     mainWindow.webContents.executeJavaScript('document.querySelector(\'sj-icon-button[data-id="play-pause"]\').click();');
-  })
+  });
 
   globalShortcut.register('mediaprevioustrack', function() {
     mainWindow.webContents.executeJavaScript('document.querySelector(\'sj-icon-button[data-id="rewind"]\').click();');
