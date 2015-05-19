@@ -1,6 +1,6 @@
 # Honeybird
 
-This is my placement to [kbhomes/radiant-player-mac](https://github.com/kbhomes/radiant-player-mac) which is currently broken due to the redesign.
+This is my replacement to [kbhomes/radiant-player-mac](https://github.com/kbhomes/radiant-player-mac) which is currently broken due to the redesign.
 
 This project was hacked together in an about 45mins so don't expect anything grand. 
 
