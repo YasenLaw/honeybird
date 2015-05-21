@@ -1,10 +1,6 @@
 # Honeybird
 
-This is my replacement to [kbhomes/radiant-player-mac](https://github.com/kbhomes/radiant-player-mac) which is currently broken due to the redesign.
-
-This project was hacked together in an about 45mins so don't expect anything grand. 
-
-Honeybird is built on [electron](https://github.com/atom/electron) so in theory this should support Windows and Linux, i can't gurantee the shortcut keys will work on all platforms (let me know if they're not).
+Honeybird is a Google Music client built on [electron](https://github.com/atom/electron) which supports Windows, OS X and Linux, i don't know if the shortcut keys work on all platforms (let me know if they're not).
 
 All feedback welcome.
 
