@@ -8,7 +8,7 @@ This project has no affiliation with Google. Google Play is a trademark of Googl
 
 ### Download
 
-Prebuilt binaries have been compiled for OS X, Windows and Linux which are [avaliable here](https://github.com/colby-swandale/honeybird/releases)
+Prebuilt binaries have been compiled for OS X, Windows and Linux which are [avaliable here](https://github.com/colby-swandale/honeybird/releases/latest)
 
 ### Building
 make sure you have `grunt-cli` installed and install dependencies
