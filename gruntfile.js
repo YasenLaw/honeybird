@@ -4,7 +4,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     'build-electron-app': {
         options: {
-            platforms: ["darwin", "win32"],
+            platforms: ["darwin", "win32", "linux32", "linux64"],
             app_dir: 'src'
         }
     }
