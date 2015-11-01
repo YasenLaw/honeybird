@@ -10,5 +10,5 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('default', ['build-electron-app']);
+  grunt.registerTask('build', ['build-electron-app']);
 };
