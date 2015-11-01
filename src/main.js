@@ -26,15 +26,15 @@ app.on('ready', function() {
 
   // register shortcusts for the media keys
   globalShortcut.register('medianexttrack', function() {
-    mainWindow.webContents.executeJavaScript('document.querySelector(\'sj-icon-button[data-id="forward"]\').click();');
+    mainWindow.webContents.executeJavaScript('document.querySelector(\'paper-icon-button[data-id="forward"]\').click();');
   });
 
   globalShortcut.register('mediaplaypause', function() {
-    mainWindow.webContents.executeJavaScript('document.querySelector(\'sj-icon-button[data-id="play-pause"]\').click();');
+    mainWindow.webContents.executeJavaScript('document.querySelector(\'paper-icon-button[data-id="play-pause"]\').click();');
   })
 
   globalShortcut.register('mediaprevioustrack', function() {
-    mainWindow.webContents.executeJavaScript('document.querySelector(\'sj-icon-button[data-id="rewind"]\').click();');
+    mainWindow.webContents.executeJavaScript('document.querySelector(\'paper-icon-button[data-id="rewind"]\').click();');
   });
 });
 
