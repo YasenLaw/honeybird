@@ -1,6 +1,9 @@
 {
   "main": "main.js",
   "name": "Honeybird",
+  "scripts": {
+    "build": "grunt build"
+  },
   "description": "Cross platform Google Play Music client",
   "devDependencies": {
     "electron-prebuilt": "^0.26.0",
